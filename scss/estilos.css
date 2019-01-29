@@ -1,0 +1,189 @@
+/*------------------------------
+PATRONES DE COLORES
+---------------------------------*/
+/* * {
+
+  	border: 2px solid red;
+  } */
+.bg-color1 {
+  background-color: #3F2011; }
+
+.bg-color2 {
+  background-color: #A5511E; }
+
+.bg-color3 {
+  background-color: #BD7737; }
+
+.bg-color4 {
+  background-color: #F4BD61; }
+
+.bg-color5 {
+  background-color: #F1C280; }
+
+.text-color1 {
+  color: #3F2011; }
+
+.text-color2 {
+  color: #A5511E; }
+
+.text-color3 {
+  color: #BD7737; }
+
+.text-color4 {
+  color: #F4BD61; }
+
+.text-color5 {
+  color: #F1C280; }
+
+.border-cafe {
+  border: 0.4rem solid #A5511E; }
+
+/*------------------------------
+ESTILOS GENERALES
+---------------------------------*/
+html {
+  font-family: 'Sarabun', sans-serif !important; }
+
+@media (max-width: 677px) {
+  html {
+    font-size: 13px; } }
+/* FIN MEDIA QUERY */
+@media (min-width: 678px) {
+  html {
+    font-size: 16px; } }
+/* FIN MEDIA QUERY */
+@media (max-width: 319px) {
+  h1,
+  .display-1 {
+    font-size: 4rem !important;
+    padding: 0 !important;
+    border: 0; } }
+.fondo-grano {
+  background-image: url(../images/cafe-en-grano.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+h2 {
+  line-height: 2rem; }
+
+/*------------------------------
+ESTILOS HEADER
+---------------------------------*/
+.texto-whatsapp {
+  color: #25d366; }
+
+.texto-whatsapp2 {
+  color: #075e54; }
+
+.bg-whatsapp {
+  background-color: #25d366; }
+
+@media (max-width: 319px) {
+  .bg-whatsapp h4 {
+    font-size: 1.2rem; } }
+nav {
+  background-color: rgba(63, 32, 17, 0.5); }
+
+header {
+  overflow: hidden; }
+
+/*--------------------------------
+BARRA NAVEGACION
+-----------------------------------*/
+.nav-link {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white !important;
+  position: relative; }
+
+.nav-link:before {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 0.15rem;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transition: all .4s;
+  transition: all .4s; }
+
+.nav-link:hover:before {
+  width: 100%;
+  left: 0; }
+
+/*--------------------------------
+IMAGEN PRINCIPAL
+-----------------------------------*/
+#imagen-principal {
+  background-image: url(../images/cafe-lg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; }
+
+#cafe-al-instante {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%; }
+
+#cafe-al-instante h1 {
+  background-color: rgba(63, 32, 17, 0.5); }
+
+/*--------------------------------
+NUESTROS CAFE
+-----------------------------------*/
+#cafe-imagen {
+  position: relative; }
+
+#cafe-texto {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.filtro {
+  position: relative;
+  -webkit-filter: contrast(99%) brightness(40%);
+          filter: contrast(99%) brightness(40%); }
+
+.texto-precio {
+  font-size: 4rem; }
+
+/*--------------------------------
+PEDIDOS
+-----------------------------------*/
+#contacto {
+  background-image: url(../images/coffee.jpg);
+  height: auto;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.fondo-semi {
+  background-color: rgba(63, 32, 17, 0.5); }
+
+/*# sourceMappingURL=estilos.css.map */
